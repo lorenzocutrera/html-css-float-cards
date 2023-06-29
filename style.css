@@ -30,26 +30,32 @@ h1{
     float: left;
     width: calc(100% / 3 - 20px);
     margin: 10px;
+    box-shadow: #0f0e17;
+    overflow: hidden;
+    
 }
 
-.col1{
 
-}
 img{
-    width: 30%;
+    width: 100px;
+    height: 100px;
     float: left;
 }
 
-.info_cards{
-    padding: 30px;
+.info_card{
+    padding: 15px;
+    vertical-align: middle;
+    float: left;
 }
 
 h3{
     color: white;
+    padding-bottom: 5px;
 }
 
 .profession{
     color: white;
+    padding-bottom: 5px;
 }
 
 a{
