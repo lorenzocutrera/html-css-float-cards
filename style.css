@@ -7,3 +7,32 @@
 body{
     font-family: 'Fredoka', sans-serif;
 }
+
+.contenitor{
+    max-width: 1170px;
+    width: 80%;
+    margin: auto;
+}
+
+clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1, p{
+    margin: 3rem 0;
+    text-align: center;
+    color: #100f1a;
+}
+
+h1{
+    color: deeppink;
+}
+
+.cards{
+    background-color: #0f0e17;
+    float: left;
+    width: calc(100% / 3);
+    padding:  1rem 1rem;
+}
