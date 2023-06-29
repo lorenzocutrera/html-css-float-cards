@@ -14,11 +14,6 @@ body{
     margin: auto;
 }
 
-clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
 
 h1, p{
     margin: 3rem 0;
@@ -33,6 +28,31 @@ h1{
 .cards{
     background-color: #0f0e17;
     float: left;
-    width: calc(100% / 3);
-    padding:  1rem 1rem;
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+}
+
+.col1{
+
+}
+img{
+    width: 30%;
+    float: left;
+}
+
+.info_cards{
+    padding: 30px;
+}
+
+h3{
+    color: white;
+}
+
+.profession{
+    color: white;
+}
+
+a{
+    color: #57c6f1;
+    text-decoration: none;
 }
